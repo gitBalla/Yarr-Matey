@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Idle
+    m_Hash: 1008081451
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Skeleton1 Normal_4
+      m_Hash: 217708424
+      m_Sprite: {fileID: 1230706125, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1230706125, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    - m_Name: Skeleton1 Normal_1
+      m_Hash: 1016267527
+      m_Sprite: {fileID: -1686243532, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1686243532, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: WalkingRight
+    m_Hash: 91543892
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Pirate Normal_1
+      m_Hash: 558957204
+      m_Sprite: {fileID: -1686243532, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1686243532, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    - m_Name: Pirate Normal_0
+      m_Hash: 374747650
+      m_Sprite: {fileID: -75872601, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -75872601, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    - m_Name: Pirate Normal_2
+      m_Hash: 945312558
+      m_Sprite: {fileID: -355657372, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -355657372, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: WalkingLeft
+    m_Hash: 253920083
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Pirate Normal_4
+      m_Hash: 289142299
+      m_Sprite: {fileID: 1230706125, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1230706125, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    - m_Name: Pirate Normal_5
+      m_Hash: 641517197
+      m_Sprite: {fileID: 822436107, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 822436107, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    - m_Name: Pirate Normal_3
+      m_Hash: 257909688
+      m_Sprite: {fileID: -1619908524, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1619908524, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: WalkingUp
+    m_Hash: 399823288
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Pirate Normal_10
+      m_Hash: 60348798
+      m_Sprite: {fileID: 211678671, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 211678671, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    - m_Name: Pirate Normal_9
+      m_Hash: 797608614
+      m_Sprite: {fileID: -242128938, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -242128938, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    - m_Name: Pirate Normal_11
+      m_Hash: 882895336
+      m_Sprite: {fileID: 199517885, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 199517885, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: WalkingDown
+    m_Hash: 700118016
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Pirate Normal_7
+      m_Hash: 137537441
+      m_Sprite: {fileID: 100328246, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 100328246, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    - m_Name: Pirate Normal_6
+      m_Hash: 1060476727
+      m_Sprite: {fileID: 453326659, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 453326659, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    - m_Name: Pirate Normal_8
+      m_Hash: 411941424
+      m_Sprite: {fileID: -383396335, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -383396335, guid: 000d50f114d9a6e4c94939e9e04633ba, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: Scared
+    m_Hash: 602980508
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Skeleton1 Scared_1
+      m_Hash: 974060288
+      m_Sprite: {fileID: 798042786, guid: 7135f7b628c9c20438fd2c12034feddd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 798042786, guid: 7135f7b628c9c20438fd2c12034feddd, type: 3}
+    - m_Name: Skeleton1 Scared_0
+      m_Hash: 218745750
+      m_Sprite: {fileID: -1275880184, guid: 7135f7b628c9c20438fd2c12034feddd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1275880184, guid: 7135f7b628c9c20438fd2c12034feddd, type: 3}
+    - m_Name: Skeleton1 Scared_2
+      m_Hash: 587705018
+      m_Sprite: {fileID: -1202825471, guid: 7135f7b628c9c20438fd2c12034feddd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1202825471, guid: 7135f7b628c9c20438fd2c12034feddd, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: Recovering
+    m_Hash: 154426679
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Skeleton1 Recovering_1
+      m_Hash: 436630700
+      m_Sprite: {fileID: 982517706, guid: 9e453b4437b5a5540b4d69edcfbf4d6d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 982517706, guid: 9e453b4437b5a5540b4d69edcfbf4d6d, type: 3}
+    - m_Name: Skeleton1 Recovering_0
+      m_Hash: 755057722
+      m_Sprite: {fileID: 847865138, guid: 9e453b4437b5a5540b4d69edcfbf4d6d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 847865138, guid: 9e453b4437b5a5540b4d69edcfbf4d6d, type: 3}
+    - m_Name: Skeleton1 Recovering_2
+      m_Hash: 51324182
+      m_Sprite: {fileID: -539931213, guid: 9e453b4437b5a5540b4d69edcfbf4d6d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -539931213, guid: 9e453b4437b5a5540b4d69edcfbf4d6d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: Dead
+    m_Hash: 219670042
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Skeleton1 Dead
+      m_Hash: 597948371
+      m_Sprite: {fileID: 21300000, guid: e467dc8799c437846a5afc827c5e82d5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: e467dc8799c437846a5afc827c5e82d5, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  m_PrimaryLibraryGUID: ab5c819febf2cf24fbc891b816a0e9d8
+  m_ModificationHash: 0
+  m_Version: 1
