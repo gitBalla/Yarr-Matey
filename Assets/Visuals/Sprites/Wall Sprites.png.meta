@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0564deb48daf72941b20d8ad63e1652e
+guid: e90f2f22e46fd5b4cbcdf251d1153789
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,177 +121,9 @@ TextureImporter:
       name: Wall Sprites_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 296
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98ef073d78fd18947a4bd9d61778bfc6
-      internalID: -1510494984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall Sprites_part_1.1
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 323
-        width: 46
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b0f1f252d8e4ea45abe35709785fe67
-      internalID: -943441178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall Sprites_part_1.2
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 315
-        width: 46
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32718449d88d26b4f8c85548e7cf0d58
-      internalID: -397616233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall Sprites_2
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 167
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f57593da1bcf6c247b10bfd808800cbf
-      internalID: 1575905897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall Sprites_3
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 191
-        width: 46
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5eab84e91c1f3a47bafeb148f8117be
-      internalID: 430050796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall Sprites_part_4.1
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 39
-        width: 6
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66416721b055c3748a34115e1337643c
-      internalID: -1016897148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall Sprites_part_.1
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 39
-        width: 42
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6588be26e68af7443afc432e3e27ff20
-      internalID: -15595052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall Sprites_4
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 26
-        width: 76
-        height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 793e9819059d97a46ab63b0d1136c8e2
-      internalID: 315428052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall Sprites_1
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 298
-        width: 83
+        x: 0
+        y: 96
+        width: 48
         height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -300,8 +132,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eb763a4c65491e49a539374387c77fc
-      internalID: -948880681
+      spriteID: 900a9eaa0d1cecb4b854e6b4caade2c0
+      internalID: 1304477774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d042979fe8c3bf14f80aa3ecf00af080
+      internalID: 1451966955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400751f110b7e1e48bdff88d717d64e6
+      internalID: 1687565666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf6372eada973b41aafa00b757251b6
+      internalID: 1706668482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261ba4a792b124a4eb5646ed70823dfc
+      internalID: 993877874
       vertices: []
       indices: 
       edges: []
@@ -317,15 +233,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Wall Sprites_part_4.1: -1016897148
-      Wall Sprites_3: 430050796
-      Wall Sprites_part_1.1: -943441178
-      Wall Sprites_part_.1: -15595052
-      Wall Sprites_part_1.2: -397616233
-      Wall Sprites_4: 315428052
-      Wall Sprites_0: -1510494984
-      Wall Sprites_2: 1575905897
-      Wall Sprites_1: -948880681
+      Wall Sprites_3: 1706668482
+      Wall Sprites_4: 993877874
+      Wall Sprites_0: 1304477774
+      Wall Sprites_2: 1687565666
+      Wall Sprites_1: 1451966955
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
