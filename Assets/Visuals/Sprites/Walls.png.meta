@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e90f2f22e46fd5b4cbcdf251d1153789
+guid: 57f5966924b5f3c4a9f0bc9f5d863a4f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -118,106 +118,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wall Sprites_0
+      name: Walls_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 48
-        height: 48
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 900a9eaa0d1cecb4b854e6b4caade2c0
-      internalID: 1304477774
+      spriteID: f1e0f1af05500be4fb98449d929524e2
+      internalID: 1850776145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall Sprites_1
+      name: Walls_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 96
-        width: 48
-        height: 48
+        x: 50
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d042979fe8c3bf14f80aa3ecf00af080
-      internalID: 1451966955
+      spriteID: b2088b32bc79cf54ca61c52ef6bc2e80
+      internalID: 1864008759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall Sprites_2
+      name: Walls_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 48
-        height: 48
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 400751f110b7e1e48bdff88d717d64e6
-      internalID: 1687565666
+      spriteID: 32bd5870636a14344800a3723e98fa91
+      internalID: -1566579450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall Sprites_3
+      name: Walls_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 48
-        height: 48
+        x: 50
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abf6372eada973b41aafa00b757251b6
-      internalID: 1706668482
+      spriteID: 89575791d6dc2df41a19379e82b21bf0
+      internalID: -1584752360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall Sprites_4
+      name: Walls_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 48
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 261ba4a792b124a4eb5646ed70823dfc
-      internalID: 993877874
+      spriteID: 328750ece1cbd154bb0fc68fcde7012d
+      internalID: 939361402
       vertices: []
       indices: 
       edges: []
@@ -233,11 +233,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Wall Sprites_3: 1706668482
-      Wall Sprites_4: 993877874
-      Wall Sprites_0: 1304477774
-      Wall Sprites_2: 1687565666
-      Wall Sprites_1: 1451966955
+      Walls_0: 1850776145
+      Walls_4: 939361402
+      Walls_3: -1584752360
+      Walls_1: 1864008759
+      Walls_2: -1566579450
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
