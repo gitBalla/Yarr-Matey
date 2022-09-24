@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1270914886486109582}
   m_Layer: 0
   m_Name: Gold Coin (Task Item)
-  m_TagString: Untagged
+  m_TagString: Powerup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

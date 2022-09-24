@@ -6,7 +6,6 @@ public class AudioManager : MonoBehaviour
 {
     public AudioSource audioSource;
     [SerializeField] private AudioClip[] backgroundMusicArray;
-    [SerializeField] private AudioClip[] soundEffectArray; //assume will need this later
 
     private Coroutine myCoroutine = null;
 

@@ -6,11 +6,19 @@ public class Tweener : MonoBehaviour
 {
     // Member variables
     protected List<Tween> activeTweens;
+    protected float timer;
 
     // Start is called before the first frame update
     void Start()
     {
         activeTweens = new List<Tween>();
+        timer = 0.0f;
+    }
+
+    // Update is called once per frame
+    virtual public void Update()
+    {
+        timer += Time.deltaTime;
     }
 
     public bool AddTween(Transform targetObject, Vector3 startPos, Vector3 endPos, float duration)
