@@ -7,7 +7,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource audioSource;
     [SerializeField] private AudioClip[] backgroundMusicArray;
 
-    private Coroutine myCoroutine = null;
+    private IEnumerator myCoroutine;
 
     // Start is called before the first frame update
     void Start()
@@ -16,17 +16,12 @@ public class AudioManager : MonoBehaviour
         audioSource.loop = true;
 
         // run coroutine to play music
-        if (myCoroutine == null) myCoroutine = StartCoroutine("playBackground");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        myCoroutine = PlayBackground();
+        StartCoroutine(myCoroutine);
     }
 
     // Play normal state background music after game intro background music finishes
-    IEnumerator playBackground()
+    private IEnumerator PlayBackground()
     {
         audioSource.PlayOneShot(backgroundMusicArray[0]);
         yield return new WaitForSeconds(backgroundMusicArray[0].length);

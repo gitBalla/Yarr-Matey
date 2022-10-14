@@ -5,16 +5,17 @@ using UnityEngine;
 public class MovementManager : MonoBehaviour
 {
     // Member Variables
+      //movement
     [SerializeField] private GameObject pirate;
     private WalkTweener tweener;
     private Animator animator;
-      //audio
     private Vector3 lastPos;
     private float distance;
-    private AudioSource audioSource;
-    [SerializeField] private AudioClip stepAudio;
+      //audio
+    [SerializeField] private AudioSource footstepSource;
+    [SerializeField] private AudioClip[] footstepClips;
 
-      //vector list: pirate's first iteration movement in top left corner
+    //vector list: pirate's first iteration movement in top left corner
     static float west = -6.25f;
     static float east = -3.75f;
     static float north = 6.75f;
@@ -33,7 +34,6 @@ public class MovementManager : MonoBehaviour
 
         animator.SetTrigger("HitWall"); //initial trigger to start cycle
 
-        audioSource = GetComponent<AudioSource>();
         lastPos = pirate.transform.position;
         distance = 0.0f;
     }
@@ -41,18 +41,18 @@ public class MovementManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveClockwise();
+        MoveClockwise();
 
         distance = Vector3.Distance(lastPos, pirate.transform.position);
         if (distance >= 0.5f)
         {
             lastPos = pirate.transform.position;
-            audioSource.PlayOneShot(stepAudio);
+            PlayFootstepAudio();
         }
 
     }
 
-    private void moveClockwise()
+    private void MoveClockwise()
     {
         //move clockwise depending on location over 3 seconds
         if (pirate.transform.position == vectorSW)
@@ -74,6 +74,15 @@ public class MovementManager : MonoBehaviour
         {
             animator.SetTrigger("LeftPress");
             tweener.AddTween(pirate.transform, vectorSE, vectorSW, 1 / pirateSpeed);
+        }
+    }
+
+    void PlayFootstepAudio()
+    {
+        if (!footstepSource.isPlaying)
+        {
+            footstepSource.clip = footstepClips[footstepSource.clip == footstepClips[0] ? 1 : 0]; //alternate between two clips
+            footstepSource.Play();
         }
     }
 }

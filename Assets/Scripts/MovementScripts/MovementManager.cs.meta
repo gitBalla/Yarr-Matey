@@ -3,7 +3,9 @@ guid: 01c8863c28241c944aeb64f6f08045f1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - pirate: {instanceID: 0}
+  - stepAudio: {fileID: 8300000, guid: 3fe3ae49bf540b740b5975d07e978f5c, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
