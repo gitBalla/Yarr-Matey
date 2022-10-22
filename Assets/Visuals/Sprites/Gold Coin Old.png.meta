@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8f9189f9b8fa28642b2da66f65a4f905
+guid: 6f51231481eb6c2439c3207ac8b9fc64
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -116,70 +116,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Gold Coin_0
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 82
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca1ad5eb053f4d344948ecb3e3a762b1
-      internalID: -123062154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gold Coin_1
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 82
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b2245096808fc0498d0604803cc9310
-      internalID: 650073332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gold Coin_2
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 18
-        width: 8
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8700abf2920e864bba628f55935a2d1
-      internalID: 635381883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -190,10 +127,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Gold Coin_0: -123062154
-      Gold Coin_1: 650073332
-      Gold Coin_2: 635381883
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
