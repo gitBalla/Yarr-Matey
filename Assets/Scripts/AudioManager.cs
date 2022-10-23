@@ -1,30 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
     // Member Variables
-    [SerializeField] private AudioSource audioSource;
+    private static AudioSource audioSource;
     [SerializeField] private AudioClip[] backgroundMusicArray;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        // loop unless specified not to
-        audioSource.loop = true;
-        audioSource.clip = backgroundMusicArray[0];
-        audioSource.Play();
-        DontDestroyOnLoad(audioSource);
+
+        if (audioSource == null) 
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.volume = 0.5f;
+            audioSource.loop = true;
+        }
+
+        // delegate OnSceneLoaded to the scene manager
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnSceneLoaded(Scene scene, LoadSceneMode sceneMode)
     {
-        if (GameManager.currentGameState == GameManager.GameState.FirstLevel && audioSource.clip != backgroundMusicArray[1])
+        // decides which audio clip based on game state
+        switch (GameManager.currentGameState)
         {
-            audioSource.clip = backgroundMusicArray[1];
-            audioSource.Play();
+            case GameManager.GameState.Start:
+                audioSource.clip = backgroundMusicArray[0];
+                break;
+            case GameManager.GameState.FirstLevel:
+                audioSource.clip = backgroundMusicArray[1];
+                break;
+            case GameManager.GameState.SecondLevel:
+                break;
+            default:
+                break;
         }
+        audioSource.Play();
     }
 }
