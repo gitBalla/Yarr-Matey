@@ -1613,6 +1613,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1122150079}
     m_Modifications:
+    - target: {fileID: 4480001815271082011, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498484998097553077, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6427749574681985393, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1839,6 +1847,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1122150079}
     m_Modifications:
+    - target: {fileID: 4480001815271082011, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498484998097553077, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6427749574681985393, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2399,6 +2415,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1122150079}
     m_Modifications:
+    - target: {fileID: 4480001815271082011, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498484998097553077, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6427749574681985393, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6454,6 +6478,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1122150079}
     m_Modifications:
+    - target: {fileID: 4480001815271082011, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498484998097553077, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6427749574681985393, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
       propertyPath: m_Sprite
       value: 

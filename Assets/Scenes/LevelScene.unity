@@ -32697,6 +32697,18 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1656582825}
     m_Modifications:
+    - target: {fileID: 2246050569672526591, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 3470299460516767824, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_text
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498484998097553077, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_Name
+      value: Ghost3Canvas
+      objectReference: {fileID: 0}
     - target: {fileID: 6427749574681985393, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -63616,7 +63628,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.23125002, y: 0.23125002, z: 0.23125002}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1227210841}
+  - {fileID: 1247366696}
+  - {fileID: 1943903126}
   m_Father: {fileID: 517590524}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -70386,23 +70401,35 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 2
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1110848487}
     m_Modifications:
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 180.18016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 180.18016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 180.18016
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.5
+      value: -449.72983
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.75
+      value: -135.13513
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -17117.117
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalRotation.w
@@ -70434,11 +70461,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822713, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_Name
-      value: Pirate Life Icon
+      value: Pirate Life Icon (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+--- !u!4 &1227210841 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+  m_PrefabInstance: {fileID: 1227210840}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1228724044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71007,23 +71039,35 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 2
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1110848487}
     m_Modifications:
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 180.18016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 180.18016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 180.18016
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.25
+      value: -314.59473
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.75
+      value: -135.13513
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -17117.117
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalRotation.w
@@ -71055,11 +71099,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822713, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_Name
-      value: Pirate Life Icon (1)
+      value: Pirate Life Icon (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+--- !u!4 &1247366696 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+  m_PrefabInstance: {fileID: 1247366695}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1247899825
 GameObject:
   m_ObjectHideFlags: 0
@@ -103611,6 +103660,18 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1656582825}
     m_Modifications:
+    - target: {fileID: 2246050569672526591, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 3470299460516767824, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_text
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498484998097553077, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_Name
+      value: Ghost2Canvas
+      objectReference: {fileID: 0}
     - target: {fileID: 6427749574681985393, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -107025,23 +107086,35 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 2
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1110848487}
     m_Modifications:
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 180.18016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 180.18016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 180.18016
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9
+      value: -179.45958
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.75
+      value: -135.13513
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -17117.117
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_LocalRotation.w
@@ -107073,11 +107146,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5461868302420822713, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
       propertyPath: m_Name
-      value: Pirate Life Icon (2)
+      value: Pirate Life Icon (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+--- !u!4 &1943903126 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5461868302420822712, guid: 2a816e3faf9e1174985a906a63113ead, type: 3}
+  m_PrefabInstance: {fileID: 1943903125}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1946141717
 GameObject:
   m_ObjectHideFlags: 0
@@ -110142,6 +110220,18 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1656582825}
     m_Modifications:
+    - target: {fileID: 2246050569672526591, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 3470299460516767824, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_text
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498484998097553077, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
+      propertyPath: m_Name
+      value: Ghost4Canvas
+      objectReference: {fileID: 0}
     - target: {fileID: 6427749574681985393, guid: d5f4a81530d52b84ea9d2bd304668254, type: 3}
       propertyPath: m_Sprite
       value: 
