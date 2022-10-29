@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * Assessment 3 movement script
+ */
 public class MovementManager : MonoBehaviour
 {
     // Member Variables

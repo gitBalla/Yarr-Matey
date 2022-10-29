@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ ** This is a walking tweener, inheriting the the parent tweener script but specifying updates to walking movement
+ */
 public class WalkTweener : Tweener
 {
     // Member variables

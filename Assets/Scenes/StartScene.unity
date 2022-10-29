@@ -5394,6 +5394,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ed0a538f93c428349909eeb9d854b508, type: 3}
   - {fileID: 8300000, guid: 59429348c8bb68942a8b4e5e498fe7bf, type: 3}
   - {fileID: 8300000, guid: f037c6dbaf51e2146bf1d2a0b83b2bff, type: 3}
+  footstepClips:
+  - {fileID: 8300000, guid: 3fe3ae49bf540b740b5975d07e978f5c, type: 3}
+  - {fileID: 8300000, guid: d3e6097f3f0734c4780f6f02f3423f84, type: 3}
 --- !u!114 &1411042150
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,6 +8,8 @@ public class AudioManager : MonoBehaviour
     // Member Variables
     private static AudioSource audioSource;
     [SerializeField] private AudioClip[] backgroundMusicArray;
+    private AudioSource footstepSource;
+    [SerializeField] private AudioClip[] footstepClips;
 
     void Awake()
     {
@@ -33,6 +35,7 @@ public class AudioManager : MonoBehaviour
                 break;
             case GameManager.GameState.FirstLevel:
                 audioSource.clip = backgroundMusicArray[1];
+                footstepSource = GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>();
                 break;
             case GameManager.GameState.SecondLevel:
                 break;
@@ -40,5 +43,17 @@ public class AudioManager : MonoBehaviour
                 break;
         }
         audioSource.Play();
+    }
+
+    //On call, plays footstep clips alternating between two clips
+    public void PlayFootstepsAudio()
+    {
+        footstepSource.clip = footstepClips[footstepSource.clip == footstepClips[0] ? 1 : 0]; //alternate between two clips
+        footstepSource.Play();
+    }
+
+    public void StopFootstepsAudio()
+    {
+        footstepSource.Stop();
     }
 }
