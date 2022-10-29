@@ -9,11 +9,11 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     // Member Variables
-    //StartMenu
+    ////StartMenu
     Button firstLevelButton;
-    //Button secondLevelButton;
+    ////Button secondLevelButton;
     Button quitGameButton;
-        //FirstLevel
+    ////FirstLevel
     Button exitLevelButton;
     TextMeshProUGUI scaredTimerText;
 

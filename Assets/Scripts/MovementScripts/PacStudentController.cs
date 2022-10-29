@@ -6,19 +6,19 @@ using UnityEngine;
 public class PacStudentController : MonoBehaviour
 {
     // Movement enum
-    public enum Movement { Idle, Up, Down, Left, Right }
+    private enum Movement { Idle, Up, Down, Left, Right }
 
     // Member Variables
-        // Input
-    Movement currentInput = Movement.Idle;
-    Movement lastInput = Movement.Idle;
-        // Pirate
+    //// Input
+    private Movement currentInput = Movement.Idle;
+    private Movement lastInput = Movement.Idle;
+    //// Pirate
     [SerializeField] private GameObject pirate;
-        // Tweener
+    //// Tweener
     private WalkTweener tweener;
-        // Movement
+    //// Movement
     private Vector2 lastPos, nextPos = new(-6.25f, 6.75f);
-    private const float pirateSpeed = 1.7f;
+    private const float pirateSpeed = 3.0f;
 
 
     // Start is called before the first frame update
@@ -75,19 +75,19 @@ public class PacStudentController : MonoBehaviour
             case Movement.Idle:
                 break;
             case Movement.Up:
-                nextPos = lastPos + Vector2.up;
+                nextPos = lastPos + Vector2.up / 2;
                 TweenPirate();
                 break;
             case Movement.Down:
-                nextPos = lastPos + Vector2.down;
+                nextPos = lastPos + Vector2.down / 2;
                 TweenPirate();
                 break;
             case Movement.Left:
-                nextPos = lastPos + Vector2.left;
+                nextPos = lastPos + Vector2.left / 2;
                 TweenPirate();
                 break;
             case Movement.Right:
-                nextPos = lastPos + Vector2.right;
+                nextPos = lastPos + Vector2.right / 2;
                 TweenPirate();
                 break;
             default:
