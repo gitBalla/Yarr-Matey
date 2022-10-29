@@ -68741,6 +68741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 451e3838ec72d664488a84df52091783, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pirate: {fileID: 1490280405}
 --- !u!1 &1186588331
 GameObject:
   m_ObjectHideFlags: 0
@@ -83049,6 +83050,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ad04b35ab659d346827ab15f21fa961, type: 3}
+--- !u!1 &1490280405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5973060225564911372, guid: 0ad04b35ab659d346827ab15f21fa961, type: 3}
+  m_PrefabInstance: {fileID: 1490280404}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1491089121
 PrefabInstance:
   m_ObjectHideFlags: 0
