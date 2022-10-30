@@ -94,6 +94,7 @@ public class LevelGenerator : MonoBehaviour
     {
         Vector3 rotationVector = Vector3.zero;
         int spriteID = levelMap[x, y];
+        int[] neighbours = GetNeighbours(x, y);
         switch (spriteID)
         {
             case 0:
@@ -102,6 +103,11 @@ public class LevelGenerator : MonoBehaviour
                 break; //do nothing with blank spaces and powerups
 
             case 1:
+                if (neighbours[0] == -1 && neighbours[2] == -1) { break; }
+                if (neighbours[0] == -1 && neighbours[3] == -1) { rotationVector.x += 180; break; }
+                if (neighbours[1] == -1 && neighbours[2] == -1) { rotationVector.y += 180; break; }
+                if (neighbours[1] == -1 && neighbours[3] == -1) { rotationVector.x += 180; rotationVector.y += 180; break; }
+                break;
             case 3:
                 break; //rotate corner pieces
 
@@ -115,10 +121,41 @@ public class LevelGenerator : MonoBehaviour
             default:
                 break;
         }
-        if (xRotate == 1 && yRotate == 1) { rotationVector += new Vector3(180, 0, 0); }
-        if (xRotate == -1 && yRotate == -1) { rotationVector += new Vector3(0, 180, 0); }
-        if (xRotate == 1 && yRotate == -1) { rotationVector += new Vector3(180, 180, 0); }
+        if (xRotate == 1 && yRotate == 1) { rotationVector.x += 180; }
+        if (xRotate == -1 && yRotate == -1) { rotationVector.y += 180; }
+        if (xRotate == 1 && yRotate == -1) { rotationVector.x += 180; rotationVector.y += 180; }
 
         return rotationVector;
+    }
+
+    int[] GetNeighbours(int x, int y)
+    {
+        int[] neighbours = new int[4] {-1,-1,-1,-1};
+        
+        //left
+        if (x != 0)
+        {
+            neighbours[0] = levelMap[x - 1, y];
+        }
+
+        //right
+        if (x != levelMap.GetLength(0) - 1)
+        {
+            neighbours[1] = levelMap[x + 1, y];
+        }
+
+        //above
+        if (y != 0)
+        {
+            neighbours[2] = levelMap[x, y - 1];
+        }
+
+        //below
+        if (y != levelMap.GetLength(1) - 1)
+        {
+            neighbours[3] = levelMap[x, y + 1];
+        }
+
+        return neighbours;
     }
 }
