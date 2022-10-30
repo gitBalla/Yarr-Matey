@@ -17,7 +17,7 @@ public class PacStudentController : MonoBehaviour
     //// Tweener
     private WalkTweener tweener;
     //// Movement
-    private Vector2 lastPos, nextPos = new(-6.25f, 6.75f);
+    private Vector2 lastPos, nextPos = new(-6.25f, 6.5f);
     private const float pirateSpeed = 3.0f;
 
 

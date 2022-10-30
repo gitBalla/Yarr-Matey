@@ -68,16 +68,19 @@ public class LevelGenerator : MonoBehaviour
         {
             for (int j = levelMap.GetLength(1) - 1; j >= 0; j--)
             {
-                // get the sprite number
-                spriteID = levelMap[i, j];
-                // get the actual sprite object
-                thisSprite = mapSprites[spriteID];
-                // determine it's location based on iteration, map multiplier (0.5), origin distance (0.25), and x or y multiplier (pos/neg)
-                location = new Vector2(x * (((j - levelMap.GetLength(1)) * 0.5f) + 0.25f), y * (((i - levelMap.GetLength(0)) * 0.5f) + 0.25f));
-                // find rotation for each sprite
-                zRotation = FindRotation(i,j);
+                if (i != levelMap.GetLength(0) - 1 || y != 1) //remove duplicate line
+                {
+                    // get the sprite number
+                    spriteID = levelMap[i, j];
+                    // get the actual sprite object
+                    thisSprite = mapSprites[spriteID];
+                    // determine it's location based on iteration, map multiplier (0.5), origin distance (0.25), and x or y multiplier (pos/neg)
+                    location = new Vector2(x * (((j - levelMap.GetLength(1)) * 0.5f) + 0.25f), y * (((i - levelMap.GetLength(0)) * 0.5f) + 0.5f));
+                    // find rotation for each sprite
+                    zRotation = FindRotation(i, j);
 
-                Instantiate(thisSprite, location, Quaternion.Euler(new Vector3(0.0f, 0.0f, zRotation)));
+                    Instantiate(thisSprite, location, Quaternion.Euler(new Vector3(0.0f, 0.0f, zRotation))); 
+                }
             }
         }
     }
